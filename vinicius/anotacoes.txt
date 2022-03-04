@@ -12,3 +12,5 @@ git remote rename {nome-original} {novo-nome} - renomeia repositorio remoto
 git clone {endereço} {nome da pasta para criar} - clona repositorio remoto
 git push {nome-repositorio} {branch} - envia seus dados para o repositorio
 git pull {nome-repositorio-remoto} {branch} - traz os dados de repositorio remoto
+git branch {nome} - cria novo branch para trabalho
+git checkout {branch} - seleciona qual branch trabalhar
