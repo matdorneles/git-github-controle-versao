@@ -15,3 +15,5 @@ git pull {nome-repositorio-remoto} {branch} - traz os dados de repositorio remot
 git branch {nome} - cria novo branch para trabalho
 git checkout {branch} - seleciona qual branch trabalhar
 git checkout -b {nome} - cria e vai para o branch
+git merge {branch} - junta alterações com a branch que está no momento(master) (:x para confirmar)
+git rebase {branch} - atualiza a branch "master" com os commits de outra branch
